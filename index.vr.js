@@ -13,22 +13,60 @@ export default class WelcomeToVR extends React.Component {
         return (
             <View>
                 <Pano source={asset('test.jpg')}/>
+
                 <View style={{
                     flex: 1,
-                    flexDirection: 'row',
-                    alignItems: 'stretch',
-                    width: 4,
-                    transform: [{translate: [0, 0, 0]}],
+                    flexDirection: 'column',
+                    alignItems: 'stretch'
                 }}>
-
-                    <View
+                    <Image
+                        source={require('./static_assets/htc_vive.png')}
                         style={{
-                            flexDirection: 'column',
-                            alignItems: 'stretch'
-                        }}>
+                            width: 5,
+                            height: 4,
+                            layoutOrigin: [0.5, 0.5],
+                            transform: [{translate: [0, 4, -11]}]
+                        }}
+                    />
+
+                    <Image
+                        source={require('./static_assets/Jour1.jpg')}
+                        style={{
+                            width: 5,
+                            height: 4,
+                            layoutOrigin: [0.5, 0.5],
+                            transform: [{rotateY: -90}, {translate: [0, 8, -11]}]
+                        }}
+                    />
+
+                    <Image
+                        source={require('./static_assets/Jour2.jpg')}
+                        style={{
+                            width: 5,
+                            height: 4,
+                            layoutOrigin: [0.5, 0.5],
+                            transform: [{rotateY: 180},{translate: [0, 12, -11]}]
+                        }}
+                    />
+
+                    <Image
+                        source={require('./static_assets/htc_vive.png')}
+                        style={{
+                            width: 5,
+                            height: 4,
+                            layoutOrigin: [0.5, 0.5],
+                            transform: [{rotateY: 90}, {translate: [0, 16, -11]}]
+                        }}
+                    />
+
+                    <View style={{
+                        width: 4,
+                        transform: [{translate : [0, 16, -6]} ],
+                    }}>
                         <Text
                             style={{
-                                backgroundColor: '#C62',
+                                width: 4,
+                                backgroundColor: '#C52',
                                 fontSize: 0.8,
                                 fontWeight: '400',
                                 layoutOrigin: [0.5, 0.5],
@@ -36,26 +74,49 @@ export default class WelcomeToVR extends React.Component {
                                 paddingRight: 0.2,
                                 textAlign: 'center',
                                 textAlignVertical: 'center',
-                                transform: [{translate: [0, 0, -3]}],
                             }}>
                             Lundi
                         </Text>
-                        <Image
-                            source={require('./static_assets/bidoof.jpg')}
-                            style={{
-                                height: 4,
-                                layoutOrigin: [0.5, 0.5],
-                                transform: [{translate: [0, 4, -3]}],
-                            }}
-                        />
-                    </View>
-                    <View
-                        style={{
-                            flexDirection: 'column',
-                            alignItems: 'stretch'
-                        }}>
+
                         <Text
                             style={{
+                                width: 4,
+                                backgroundColor: '#C52',
+                                fontSize: 0.4,
+                                fontWeight: '400',
+                                layoutOrigin: [0.5, 0.5],
+                                paddingLeft: 0.2,
+                                paddingRight: 0.2,
+                                textAlign: 'center',
+                                textAlignVertical: 'center',
+                            }}>
+                            Début du Projet
+                        </Text>
+
+                        <Text
+                            style={{
+                                width: 4,
+                                backgroundColor: '#C52',
+                                fontSize: 0.3,
+                                fontWeight: '400',
+                                layoutOrigin: [0.5, 0.5],
+                                paddingLeft: 0.2,
+                                paddingRight: 0.2,
+                                textAlign: 'center',
+                                textAlignVertical: 'center',
+                            }}>
+                            R&D Caméra 360 autour de la VR
+                        </Text>
+                    </View>
+
+                    <View style={{
+                        width: 4,
+                        transform: [{rotateY: -90}, {translate : [2, 17, -7]} ],
+                        layoutOrigin: [0.5, 0.5]
+                    }}>
+                        <Text
+                            style={{
+                                width: 4,
                                 backgroundColor: '#4C2',
                                 fontSize: 0.8,
                                 fontWeight: '400',
@@ -64,24 +125,47 @@ export default class WelcomeToVR extends React.Component {
                                 paddingRight: 0.2,
                                 textAlign: 'center',
                                 textAlignVertical: 'center',
-                                transform: [ {rotateY: -90}, {translate : [0, 0, -1]} ],
+                                //transform: [{rotateY: -90}, {translate : [0, 17, -4]} ]
                             }}>
                             Mardi
                         </Text>
-                        <Image
-                            source={require('./static_assets/bidoof.jpg')}
+
+                        <Text
                             style={{
-                                height: 4,
+                                width: 4,
+                                backgroundColor: '#4C2',
+                                fontSize: 0.4,
+                                fontWeight: '400',
                                 layoutOrigin: [0.5, 0.5],
-                                transform: [{rotateY: -90}, {translate: [0, 4, -3]}],
-                            }}
-                        />
+                                paddingLeft: 0.2,
+                                paddingRight: 0.2,
+                                textAlign: 'center',
+                                textAlignVertical: 'center',
+                            }}>
+                            Développement Jeu Unity
+                        </Text>
+
+                        <Text
+                            style={{
+                                width: 4,
+                                backgroundColor: '#4C2',
+                                fontSize: 0.3,
+                                fontWeight: '400',
+                                layoutOrigin: [0.5, 0.5],
+                                paddingLeft: 0.2,
+                                paddingRight: 0.2,
+                                textAlign: 'center',
+                                textAlignVertical: 'center',
+                            }}>
+                            Arrêt R&D Caméra 360
+                        </Text>
                     </View>
-                    <View
-                        style={{
-                            flexDirection: 'column',
-                            alignItems: 'stretch'
-                        }}>
+
+                    <View style={{
+                        width: 4,
+                        transform: [{rotateY: 180},{translate : [2, 19.5, -6]} ],
+                        layoutOrigin: [0.5, 0.5]
+                    }}>
                         <Text
                             style={{
                                 backgroundColor: '#2CC',
@@ -92,24 +176,44 @@ export default class WelcomeToVR extends React.Component {
                                 paddingRight: 0.2,
                                 textAlign: 'center',
                                 textAlignVertical: 'center',
-                                transform: [ {rotateY: 180}, {translate : [4, 0, -3]} ],
                             }}>
                             Mercredi
                         </Text>
-                        <Image
-                            source={require('./static_assets/bidoof.jpg')}
+
+                        <Text
                             style={{
-                                height: 4,
+                                backgroundColor: '#2CC',
+                                fontSize: 0.4,
+                                fontWeight: '400',
                                 layoutOrigin: [0.5, 0.5],
-                                transform: [{rotateY: 180}, {translate: [4, 4, -3]}],
-                            }}
-                        />
+                                paddingLeft: 0.2,
+                                paddingRight: 0.2,
+                                textAlign: 'center',
+                                textAlignVertical: 'center',
+                            }}>
+                            Définition Thème Jeu
+                        </Text>
+
+                        <Text
+                            style={{
+                                backgroundColor: '#2CC',
+                                fontSize: 0.3,
+                                fontWeight: '400',
+                                layoutOrigin: [0.5, 0.5],
+                                paddingLeft: 0.2,
+                                paddingRight: 0.2,
+                                textAlign: 'center',
+                                textAlignVertical: 'center',
+                            }}>
+                            Développement ReactVR
+                        </Text>
                     </View>
-                    <View
-                        style={{
-                            flexDirection: 'column',
-                            alignItems: 'stretch'
-                        }}>
+
+                    <View style={{
+                        width: 4,
+                        transform: [{rotateY: 90},{translate : [2, 21.5, -6]} ],
+                        layoutOrigin: [0.5, 0.5]
+                    }}>
                         <Text
                             style={{
                                 backgroundColor: '#C2C',
@@ -120,18 +224,23 @@ export default class WelcomeToVR extends React.Component {
                                 paddingRight: 0.2,
                                 textAlign: 'center',
                                 textAlignVertical: 'center',
-                                transform: [ {rotateY: 90}, {translate : [0, 0, -10]} ]
                             }}>
                             Jeudi
                         </Text>
-                        <Image
-                            source={require('./static_assets/bidoof.jpg')}
+
+                        <Text
                             style={{
-                                height: 4,
+                                backgroundColor: '#C2C',
+                                fontSize: 0.4,
+                                fontWeight: '400',
                                 layoutOrigin: [0.5, 0.5],
-                                transform: [{rotateY: 90}, {translate: [0, 4, -10]}],
-                            }}
-                        />
+                                paddingLeft: 0.2,
+                                paddingRight: 0.2,
+                                textAlign: 'center',
+                                textAlignVertical: 'center',
+                            }}>
+                            Finition Jeu Unity
+                        </Text>
                     </View>
                 </View>
             </View>
