@@ -11,6 +11,7 @@ export default class WelcomeToVR extends React.Component {
     render() {
         return (
             <View>
+                <Pano source={asset('test.jpg')}/>
                 <View style={{
                     flex: 1,
                     flexDirection: 'row',
@@ -19,10 +20,20 @@ export default class WelcomeToVR extends React.Component {
                     transform: [{translate: [0, 0, 0]}],
                 }}>
 
-                    <View>
+                    <View
+                        style={{
+                            flexDirection: 'column',
+                            alignItems: 'stretch'
+                        }}>
+                        <Image
+                            source={require('./static_assets/bidoof.jpg')}
+                            style={{
+                                transform: [{translate: [0, 0, -3]}],
+                            }}
+                        />
                         <Text
                             style={{
-                                backgroundColor: '#C42',
+                                backgroundColor: '#C62',
                                 fontSize: 0.8,
                                 fontWeight: '400',
                                 layoutOrigin: [0.5, 0.5],
@@ -32,7 +43,7 @@ export default class WelcomeToVR extends React.Component {
                                 textAlignVertical: 'center',
                                 transform: [{translate: [0, 0, -3]}],
                             }}>
-                            Test1
+                            Lundi
                         </Text>
                     </View>
                     <View>
@@ -46,9 +57,9 @@ export default class WelcomeToVR extends React.Component {
                                 paddingRight: 0.2,
                                 textAlign: 'center',
                                 textAlignVertical: 'center',
-                                transform: [ {rotateY: -90}, {translate : [0, 0, -2]} ],
+                                transform: [ {rotateY: -90}, {translate : [0, 0, -1]} ],
                             }}>
-                            Test2
+                            Mardi
                         </Text>
                     </View>
                     <View>
@@ -64,7 +75,7 @@ export default class WelcomeToVR extends React.Component {
                                 textAlignVertical: 'center',
                                 transform: [ {rotateY: 180}, {translate : [4, 0, -3]} ],
                             }}>
-                            Test3
+                            Mercredi
                         </Text>
                     </View>
                     <View>
@@ -80,7 +91,7 @@ export default class WelcomeToVR extends React.Component {
                                 textAlignVertical: 'center',
                                 transform: [ {rotateY: 90}, {translate : [0, 0, -10]} ]
                             }}>
-                            Test4
+                            Jeudi
                         </Text>
                     </View>
                 </View>

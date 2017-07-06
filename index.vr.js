@@ -1,12 +1,11 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {
     AppRegistry,
     asset,
     Pano,
     Text,
     View,
-    Image,
-    Plane
+    Image
 } from 'react-vr';
 
 export default class WelcomeToVR extends React.Component {
@@ -27,12 +26,6 @@ export default class WelcomeToVR extends React.Component {
                             flexDirection: 'column',
                             alignItems: 'stretch'
                         }}>
-                        <Image
-                            source={require('./static_assets/bidoof.jpg')}
-                            style={{
-                                transform: [{translate: [0, 0, -3]}],
-                            }}
-                        />
                         <Text
                             style={{
                                 backgroundColor: '#C62',
@@ -47,8 +40,20 @@ export default class WelcomeToVR extends React.Component {
                             }}>
                             Lundi
                         </Text>
+                        <Image
+                            source={require('./static_assets/bidoof.jpg')}
+                            style={{
+                                height: 4,
+                                layoutOrigin: [0.5, 0.5],
+                                transform: [{translate: [0, 4, -3]}],
+                            }}
+                        />
                     </View>
-                    <View>
+                    <View
+                        style={{
+                            flexDirection: 'column',
+                            alignItems: 'stretch'
+                        }}>
                         <Text
                             style={{
                                 backgroundColor: '#4C2',
@@ -63,8 +68,20 @@ export default class WelcomeToVR extends React.Component {
                             }}>
                             Mardi
                         </Text>
+                        <Image
+                            source={require('./static_assets/bidoof.jpg')}
+                            style={{
+                                height: 4,
+                                layoutOrigin: [0.5, 0.5],
+                                transform: [{rotateY: -90}, {translate: [0, 4, -3]}],
+                            }}
+                        />
                     </View>
-                    <View>
+                    <View
+                        style={{
+                            flexDirection: 'column',
+                            alignItems: 'stretch'
+                        }}>
                         <Text
                             style={{
                                 backgroundColor: '#2CC',
@@ -79,8 +96,20 @@ export default class WelcomeToVR extends React.Component {
                             }}>
                             Mercredi
                         </Text>
+                        <Image
+                            source={require('./static_assets/bidoof.jpg')}
+                            style={{
+                                height: 4,
+                                layoutOrigin: [0.5, 0.5],
+                                transform: [{rotateY: 180}, {translate: [4, 4, -3]}],
+                            }}
+                        />
                     </View>
-                    <View>
+                    <View
+                        style={{
+                            flexDirection: 'column',
+                            alignItems: 'stretch'
+                        }}>
                         <Text
                             style={{
                                 backgroundColor: '#C2C',
@@ -95,6 +124,14 @@ export default class WelcomeToVR extends React.Component {
                             }}>
                             Jeudi
                         </Text>
+                        <Image
+                            source={require('./static_assets/bidoof.jpg')}
+                            style={{
+                                height: 4,
+                                layoutOrigin: [0.5, 0.5],
+                                transform: [{rotateY: 90}, {translate: [0, 4, -10]}],
+                            }}
+                        />
                     </View>
                 </View>
             </View>
