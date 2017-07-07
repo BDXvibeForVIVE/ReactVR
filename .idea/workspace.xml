@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebbd02f7-d63d-4846-b9e5-e5970ffda22f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static_assets/Jour1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static_assets/Jour2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static_assets/cherrybloom.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static_assets/test.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.vr.js" afterPath="$PROJECT_DIR$/index.vr.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -26,10 +21,10 @@
         <entry file="file://$PROJECT_DIR$/index.vr.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+              <caret line="14" column="42" lean-forward="false" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
-                <element signature="e#488#636#0" expanded="false" />
+                <element signature="e#487#635#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -131,20 +126,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="WelcomeToVR" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WelcomeToVR" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WelcomeToVR" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vr" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -277,12 +258,12 @@
       <workItem from="1499238545855" duration="19367000" />
       <workItem from="1499322673143" duration="824000" />
       <workItem from="1499325510421" duration="19011000" />
-      <workItem from="1499410533921" duration="2027000" />
+      <workItem from="1499410533921" duration="2994000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47514000" />
+    <option name="totallyTimeSpent" value="48481000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -335,7 +316,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#488#636#0" expanded="false" />
+            <element signature="e#487#635#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -374,7 +355,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#488#636#0" expanded="false" />
+            <element signature="e#487#635#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -403,7 +384,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#488#636#0" expanded="false" />
+            <element signature="e#487#635#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -432,7 +413,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#488#636#0" expanded="false" />
+            <element signature="e#487#635#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -518,10 +499,10 @@
     <entry file="file://$PROJECT_DIR$/index.vr.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+          <caret line="14" column="42" lean-forward="false" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#488#636#0" expanded="false" />
+            <element signature="e#487#635#0" expanded="false" />
           </folding>
         </state>
       </provider>

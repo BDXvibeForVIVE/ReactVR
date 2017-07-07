@@ -12,7 +12,7 @@ export default class WelcomeToVR extends React.Component {
     render() {
         return (
             <View>
-                <Pano source={asset('taiwan.jpg')}/>
+                <Pano source={asset('japan.jpg')}/>
 
                 <View style={{
                     flex: 1,
